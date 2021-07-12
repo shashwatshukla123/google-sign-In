@@ -42,11 +42,12 @@ android
 
 certificate generation
 
-open c:/program files/Git/bin--type cmd
+C:\Program Files\Git>cd usr/bin
 
------------------------------------------------------
-C:\Program Files\Git\bin>openssl rand -base64 32 | openssl sha1 -c
-(stdin)= c7:8d:90:af:a4:f4:84:b7:b0:8f:5f:87:86:08:cb:e0:3f:56:a8:e5
+C:\Program Files\Git\usr\bin>openssl rand -base64 32 | openssl sha1 -c
+(stdin)= b6:e2:b8:55:4f:b5:c7:90:33:52:3d:78:0e:0d:09:da:96:f7:49:40
+------------------------------------------------------------------------
+C:\Program Files\Git\usr\bin>
 
 -------------------------------------------------------------------
 copy this and generate oauth client id for android
